@@ -1,6 +1,6 @@
 import requests
 import shutil
-url= "https://s3.amazonaws.com/www-inside-design/uploads/2019/07/anatomy-of-ux-case-study-details-sarah-doody.png"
+url= "https://portfolio.sabarishshankar.repl.co/images/5.png"
 filename = url.split("/")[-1]
 r = requests.get(url, stream = True)
 if r.status_code == 200:
